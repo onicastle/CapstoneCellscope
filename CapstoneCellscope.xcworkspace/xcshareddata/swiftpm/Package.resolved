@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftImage",
+        "repositoryURL": "https://github.com/koher/swift-image.git",
+        "state": {
+          "branch": "master",
+          "revision": "c61b8cf4613a7fc80d1c2a84231cef2909e837a1",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftUIX",
+        "repositoryURL": "https://github.com/SwiftUIX/SwiftUIX.git",
+        "state": {
+          "branch": "master",
+          "revision": "93a1a9ab03abe7f9d1cf3874f70f5c0f98725506",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
