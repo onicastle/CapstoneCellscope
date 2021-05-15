@@ -6,6 +6,8 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFile</key>
+	<string>icon.png</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -15,11 +17,25 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>The application is requesting access to utilize this service in order to utilize the Bluetooth Connection necessary to control the matrix.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>The application is requesting access to utilize this service in order to utilize the Bluetooth Connection necessary to control the matrix.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>The application is requesting access to the camera in order to provide a live view of the sample and to capture images.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>For what?</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>The application is requesting access to the device's Photo Library in order to provide Image Processing services.</string>
+	<key>Privacy – Bluetooth Always Usage Description</key>
+	<string>The application is requesting access to the device's Photo Library in order to provide Image Processing services.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -28,7 +44,16 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchScreen</key>
-	<dict/>
+	<dict>
+		<key>UIColorName</key>
+		<string>Black</string>
+		<key>UIImageName</key>
+		<string>icon</string>
+		<key>UIImageRespectsSafeAreaInsets</key>
+		<false/>
+	</dict>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -36,15 +61,10 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

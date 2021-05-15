@@ -12,6 +12,44 @@
 		8F4028D726507F910036A0AB /* CapstoneCellscopeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028D626507F910036A0AB /* CapstoneCellscopeApp.swift */; };
 		8F4028D926507FA10036A0AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028D826507FA10036A0AB /* ContentView.swift */; };
 		8F4028DC265084080036A0AB /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028DB265084080036A0AB /* Root.swift */; };
+		8F4029152650848C0036A0AB /* amplifytools.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028DF2650848C0036A0AB /* amplifytools.xcconfig */; };
+		8F4029162650848C0036A0AB /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028E02650848C0036A0AB /* amplifyconfiguration.json */; };
+		8F4029172650848C0036A0AB /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028E12650848C0036A0AB /* awsconfiguration.json */; };
+		8F4029182650848C0036A0AB /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028E32650848C0036A0AB /* CameraModel.swift */; };
+		8F4029192650848C0036A0AB /* CCameraViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028E42650848C0036A0AB /* CCameraViews.swift */; };
+		8F40291A2650848C0036A0AB /* CapstoneCellscope.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028E72650848C0036A0AB /* CapstoneCellscope.ipa */; };
+		8F40291B2650848C0036A0AB /* Packaging.log in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028E82650848C0036A0AB /* Packaging.log */; };
+		8F40291C2650848C0036A0AB /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028E92650848C0036A0AB /* ExportOptions.plist */; };
+		8F40291D2650848C0036A0AB /* DistributionSummary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028EA2650848C0036A0AB /* DistributionSummary.plist */; };
+		8F40291E2650848C0036A0AB /* ImagePickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028EB2650848C0036A0AB /* ImagePickerUI.swift */; };
+		8F40291F2650848C0036A0AB /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028EC2650848C0036A0AB /* CameraService.swift */; };
+		8F4029202650848C0036A0AB /* ActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028EF2650848C0036A0AB /* ActionButtonStyle.swift */; };
+		8F4029212650848C0036A0AB /* CaptureButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028F02650848C0036A0AB /* CaptureButtonStyle.swift */; };
+		8F4029222650848C0036A0AB /* PatternButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028F12650848C0036A0AB /* PatternButtonStyle.swift */; };
+		8F4029232650848C0036A0AB /* CameraViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028F32650848C0036A0AB /* CameraViewRepresentable.swift */; };
+		8F4029242650848C0036A0AB /* PatternControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028F42650848C0036A0AB /* PatternControl.swift */; };
+		8F4029252650848C0036A0AB /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028F72650848C0036A0AB /* AmplifyModels.swift */; };
+		8F4029262650848C0036A0AB /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028F82650848C0036A0AB /* Resources.swift */; };
+		8F4029272650848C0036A0AB /* ArduinoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028FA2650848C0036A0AB /* ArduinoView.swift */; };
+		8F4029282650848C0036A0AB /* HexagonalParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028FC2650848C0036A0AB /* HexagonalParameters.swift */; };
+		8F4029292650848C0036A0AB /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028FD2650848C0036A0AB /* RotatedBadgeSymbol.swift */; };
+		8F40292A2650848C0036A0AB /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028FE2650848C0036A0AB /* BadgeSymbol.swift */; };
+		8F40292B2650848C0036A0AB /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028FF2650848C0036A0AB /* BadgeBackground.swift */; };
+		8F40292C2650848C0036A0AB /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029002650848C0036A0AB /* Badge.swift */; };
+		8F40292D2650848C0036A0AB /* BrightfieldCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029032650848C0036A0AB /* BrightfieldCameraView.swift */; };
+		8F40292E2650848C0036A0AB /* DarkfieldCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029042650848C0036A0AB /* DarkfieldCameraView.swift */; };
+		8F40292F2650848C0036A0AB /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029062650848C0036A0AB /* LabelStyle.swift */; };
+		8F4029302650848C0036A0AB /* CameraTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029072650848C0036A0AB /* CameraTabView.swift */; };
+		8F4029312650848C0036A0AB /* SwiftUIImagePickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029092650848C0036A0AB /* SwiftUIImagePickerApp.swift */; };
+		8F4029322650848C0036A0AB /* BluetoothSerialDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F40290B2650848C0036A0AB /* BluetoothSerialDelegate.swift */; };
+		8F4029332650848C0036A0AB /* HM10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F40290C2650848C0036A0AB /* HM10.swift */; };
+		8F4029342650848C0036A0AB /* AWSImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F40290E2650848C0036A0AB /* AWSImagePicker.swift */; };
+		8F4029352650848C0036A0AB /* ImageProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F40290F2650848C0036A0AB /* ImageProcessing.swift */; };
+		8F4029362650848C0036A0AB /* AWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029102650848C0036A0AB /* AWS.swift */; };
+		8F4029372650848C0036A0AB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029112650848C0036A0AB /* CameraView.swift */; };
+		8F4029382650848C0036A0AB /* AWSCameraViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029122650848C0036A0AB /* AWSCameraViews.swift */; };
+		8F4029392650848C0036A0AB /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029132650848C0036A0AB /* GalleryView.swift */; };
+		8F40293A2650848C0036A0AB /* revisedAWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029142650848C0036A0AB /* revisedAWS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +60,44 @@
 		8F4028D626507F910036A0AB /* CapstoneCellscopeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapstoneCellscopeApp.swift; sourceTree = "<group>"; };
 		8F4028D826507FA10036A0AB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F4028DB265084080036A0AB /* Root.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		8F4028DF2650848C0036A0AB /* amplifytools.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		8F4028E02650848C0036A0AB /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		8F4028E12650848C0036A0AB /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		8F4028E32650848C0036A0AB /* CameraModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		8F4028E42650848C0036A0AB /* CCameraViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCameraViews.swift; sourceTree = "<group>"; };
+		8F4028E72650848C0036A0AB /* CapstoneCellscope.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapstoneCellscope.ipa; sourceTree = "<group>"; };
+		8F4028E82650848C0036A0AB /* Packaging.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Packaging.log; sourceTree = "<group>"; };
+		8F4028E92650848C0036A0AB /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
+		8F4028EA2650848C0036A0AB /* DistributionSummary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DistributionSummary.plist; sourceTree = "<group>"; };
+		8F4028EB2650848C0036A0AB /* ImagePickerUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerUI.swift; sourceTree = "<group>"; };
+		8F4028EC2650848C0036A0AB /* CameraService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		8F4028EF2650848C0036A0AB /* ActionButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonStyle.swift; sourceTree = "<group>"; };
+		8F4028F02650848C0036A0AB /* CaptureButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureButtonStyle.swift; sourceTree = "<group>"; };
+		8F4028F12650848C0036A0AB /* PatternButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternButtonStyle.swift; sourceTree = "<group>"; };
+		8F4028F32650848C0036A0AB /* CameraViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewRepresentable.swift; sourceTree = "<group>"; };
+		8F4028F42650848C0036A0AB /* PatternControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternControl.swift; sourceTree = "<group>"; };
+		8F4028F72650848C0036A0AB /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplifyModels.swift; sourceTree = "<group>"; };
+		8F4028F82650848C0036A0AB /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		8F4028FA2650848C0036A0AB /* ArduinoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArduinoView.swift; sourceTree = "<group>"; };
+		8F4028FC2650848C0036A0AB /* HexagonalParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonalParameters.swift; sourceTree = "<group>"; };
+		8F4028FD2650848C0036A0AB /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		8F4028FE2650848C0036A0AB /* BadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		8F4028FF2650848C0036A0AB /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		8F4029002650848C0036A0AB /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		8F4029032650848C0036A0AB /* BrightfieldCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrightfieldCameraView.swift; sourceTree = "<group>"; };
+		8F4029042650848C0036A0AB /* DarkfieldCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkfieldCameraView.swift; sourceTree = "<group>"; };
+		8F4029062650848C0036A0AB /* LabelStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
+		8F4029072650848C0036A0AB /* CameraTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTabView.swift; sourceTree = "<group>"; };
+		8F4029092650848C0036A0AB /* SwiftUIImagePickerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIImagePickerApp.swift; sourceTree = "<group>"; };
+		8F40290B2650848C0036A0AB /* BluetoothSerialDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSerialDelegate.swift; sourceTree = "<group>"; };
+		8F40290C2650848C0036A0AB /* HM10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HM10.swift; sourceTree = "<group>"; };
+		8F40290E2650848C0036A0AB /* AWSImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSImagePicker.swift; sourceTree = "<group>"; };
+		8F40290F2650848C0036A0AB /* ImageProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessing.swift; sourceTree = "<group>"; };
+		8F4029102650848C0036A0AB /* AWS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWS.swift; sourceTree = "<group>"; };
+		8F4029112650848C0036A0AB /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		8F4029122650848C0036A0AB /* AWSCameraViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSCameraViews.swift; sourceTree = "<group>"; };
+		8F4029132650848C0036A0AB /* GalleryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		8F4029142650848C0036A0AB /* revisedAWS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = revisedAWS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +130,7 @@
 		8F4028C626507F6C0036A0AB /* CapstoneCellscope */ = {
 			isa = PBXGroup;
 			children = (
+				8F4028DD2650848C0036A0AB /* Tabs */,
 				8F4028DA265084080036A0AB /* Navigation */,
 				8F4028D826507FA10036A0AB /* ContentView.swift */,
 				8F4028D626507F910036A0AB /* CapstoneCellscopeApp.swift */,
@@ -78,6 +155,187 @@
 				8F4028DB265084080036A0AB /* Root.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		8F4028DD2650848C0036A0AB /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028DE2650848C0036A0AB /* AmplifyConfig */,
+				8F4028E22650848C0036A0AB /* Camera */,
+				8F4028F52650848C0036A0AB /* Resources */,
+				8F4028F92650848C0036A0AB /* Arduino */,
+				8F4029012650848C0036A0AB /* CameraTab */,
+				8F40290A2650848C0036A0AB /* Bluetooth */,
+				8F40290D2650848C0036A0AB /* AWS */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		8F4028DE2650848C0036A0AB /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028DF2650848C0036A0AB /* amplifytools.xcconfig */,
+				8F4028E02650848C0036A0AB /* amplifyconfiguration.json */,
+				8F4028E12650848C0036A0AB /* awsconfiguration.json */,
+			);
+			path = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		8F4028E22650848C0036A0AB /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028E32650848C0036A0AB /* CameraModel.swift */,
+				8F4028E42650848C0036A0AB /* CCameraViews.swift */,
+				8F4028E52650848C0036A0AB /* Camera Components */,
+				8F4028ED2650848C0036A0AB /* CamaraUI Components */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		8F4028E52650848C0036A0AB /* Camera Components */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028E62650848C0036A0AB /* CapstoneCellscope 2021-05-14 23-19-52 */,
+				8F4028EB2650848C0036A0AB /* ImagePickerUI.swift */,
+				8F4028EC2650848C0036A0AB /* CameraService.swift */,
+			);
+			path = "Camera Components";
+			sourceTree = "<group>";
+		};
+		8F4028E62650848C0036A0AB /* CapstoneCellscope 2021-05-14 23-19-52 */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028E72650848C0036A0AB /* CapstoneCellscope.ipa */,
+				8F4028E82650848C0036A0AB /* Packaging.log */,
+				8F4028E92650848C0036A0AB /* ExportOptions.plist */,
+				8F4028EA2650848C0036A0AB /* DistributionSummary.plist */,
+			);
+			path = "CapstoneCellscope 2021-05-14 23-19-52";
+			sourceTree = "<group>";
+		};
+		8F4028ED2650848C0036A0AB /* CamaraUI Components */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028EE2650848C0036A0AB /* Styles */,
+				8F4028F22650848C0036A0AB /* Components */,
+			);
+			path = "CamaraUI Components";
+			sourceTree = "<group>";
+		};
+		8F4028EE2650848C0036A0AB /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028EF2650848C0036A0AB /* ActionButtonStyle.swift */,
+				8F4028F02650848C0036A0AB /* CaptureButtonStyle.swift */,
+				8F4028F12650848C0036A0AB /* PatternButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		8F4028F22650848C0036A0AB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028F32650848C0036A0AB /* CameraViewRepresentable.swift */,
+				8F4028F42650848C0036A0AB /* PatternControl.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8F4028F52650848C0036A0AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028F62650848C0036A0AB /* Amplify */,
+				8F4028F82650848C0036A0AB /* Resources.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8F4028F62650848C0036A0AB /* Amplify */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028F72650848C0036A0AB /* AmplifyModels.swift */,
+			);
+			path = Amplify;
+			sourceTree = "<group>";
+		};
+		8F4028F92650848C0036A0AB /* Arduino */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028FA2650848C0036A0AB /* ArduinoView.swift */,
+				8F4028FB2650848C0036A0AB /* ArduinoBadge */,
+			);
+			path = Arduino;
+			sourceTree = "<group>";
+		};
+		8F4028FB2650848C0036A0AB /* ArduinoBadge */ = {
+			isa = PBXGroup;
+			children = (
+				8F4028FC2650848C0036A0AB /* HexagonalParameters.swift */,
+				8F4028FD2650848C0036A0AB /* RotatedBadgeSymbol.swift */,
+				8F4028FE2650848C0036A0AB /* BadgeSymbol.swift */,
+				8F4028FF2650848C0036A0AB /* BadgeBackground.swift */,
+				8F4029002650848C0036A0AB /* Badge.swift */,
+			);
+			path = ArduinoBadge;
+			sourceTree = "<group>";
+		};
+		8F4029012650848C0036A0AB /* CameraTab */ = {
+			isa = PBXGroup;
+			children = (
+				8F4029022650848C0036A0AB /* CustomCameras */,
+				8F4029052650848C0036A0AB /* Styles */,
+				8F4029072650848C0036A0AB /* CameraTabView.swift */,
+				8F4029082650848C0036A0AB /* SwiftUIImagePicker */,
+			);
+			path = CameraTab;
+			sourceTree = "<group>";
+		};
+		8F4029022650848C0036A0AB /* CustomCameras */ = {
+			isa = PBXGroup;
+			children = (
+				8F4029032650848C0036A0AB /* BrightfieldCameraView.swift */,
+				8F4029042650848C0036A0AB /* DarkfieldCameraView.swift */,
+			);
+			path = CustomCameras;
+			sourceTree = "<group>";
+		};
+		8F4029052650848C0036A0AB /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				8F4029062650848C0036A0AB /* LabelStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		8F4029082650848C0036A0AB /* SwiftUIImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				8F4029092650848C0036A0AB /* SwiftUIImagePickerApp.swift */,
+			);
+			path = SwiftUIImagePicker;
+			sourceTree = "<group>";
+		};
+		8F40290A2650848C0036A0AB /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				8F40290B2650848C0036A0AB /* BluetoothSerialDelegate.swift */,
+				8F40290C2650848C0036A0AB /* HM10.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		8F40290D2650848C0036A0AB /* AWS */ = {
+			isa = PBXGroup;
+			children = (
+				8F40290E2650848C0036A0AB /* AWSImagePicker.swift */,
+				8F40290F2650848C0036A0AB /* ImageProcessing.swift */,
+				8F4029102650848C0036A0AB /* AWS.swift */,
+				8F4029112650848C0036A0AB /* CameraView.swift */,
+				8F4029122650848C0036A0AB /* AWSCameraViews.swift */,
+				8F4029132650848C0036A0AB /* GalleryView.swift */,
+				8F4029142650848C0036A0AB /* revisedAWS.swift */,
+			);
+			path = AWS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +395,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F40291A2650848C0036A0AB /* CapstoneCellscope.ipa in Resources */,
+				8F4029172650848C0036A0AB /* awsconfiguration.json in Resources */,
+				8F40291B2650848C0036A0AB /* Packaging.log in Resources */,
+				8F40291C2650848C0036A0AB /* ExportOptions.plist in Resources */,
+				8F4029152650848C0036A0AB /* amplifytools.xcconfig in Resources */,
 				8F4028CF26507F6D0036A0AB /* Preview Assets.xcassets in Resources */,
+				8F40291D2650848C0036A0AB /* DistributionSummary.plist in Resources */,
 				8F4028CC26507F6D0036A0AB /* Assets.xcassets in Resources */,
+				8F4029162650848C0036A0AB /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +414,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4029232650848C0036A0AB /* CameraViewRepresentable.swift in Sources */,
+				8F4029312650848C0036A0AB /* SwiftUIImagePickerApp.swift in Sources */,
+				8F40292C2650848C0036A0AB /* Badge.swift in Sources */,
+				8F4029362650848C0036A0AB /* AWS.swift in Sources */,
 				8F4028D726507F910036A0AB /* CapstoneCellscopeApp.swift in Sources */,
 				8F4028D926507FA10036A0AB /* ContentView.swift in Sources */,
+				8F40292F2650848C0036A0AB /* LabelStyle.swift in Sources */,
+				8F4029372650848C0036A0AB /* CameraView.swift in Sources */,
+				8F4029252650848C0036A0AB /* AmplifyModels.swift in Sources */,
+				8F4029322650848C0036A0AB /* BluetoothSerialDelegate.swift in Sources */,
+				8F4029272650848C0036A0AB /* ArduinoView.swift in Sources */,
+				8F4029332650848C0036A0AB /* HM10.swift in Sources */,
+				8F4029292650848C0036A0AB /* RotatedBadgeSymbol.swift in Sources */,
+				8F40292D2650848C0036A0AB /* BrightfieldCameraView.swift in Sources */,
+				8F4029302650848C0036A0AB /* CameraTabView.swift in Sources */,
+				8F4029182650848C0036A0AB /* CameraModel.swift in Sources */,
+				8F40292B2650848C0036A0AB /* BadgeBackground.swift in Sources */,
+				8F4029382650848C0036A0AB /* AWSCameraViews.swift in Sources */,
+				8F40291E2650848C0036A0AB /* ImagePickerUI.swift in Sources */,
+				8F4029392650848C0036A0AB /* GalleryView.swift in Sources */,
+				8F4029192650848C0036A0AB /* CCameraViews.swift in Sources */,
+				8F4029352650848C0036A0AB /* ImageProcessing.swift in Sources */,
+				8F4029242650848C0036A0AB /* PatternControl.swift in Sources */,
+				8F4029202650848C0036A0AB /* ActionButtonStyle.swift in Sources */,
+				8F40293A2650848C0036A0AB /* revisedAWS.swift in Sources */,
+				8F40292A2650848C0036A0AB /* BadgeSymbol.swift in Sources */,
+				8F4029262650848C0036A0AB /* Resources.swift in Sources */,
+				8F4029212650848C0036A0AB /* CaptureButtonStyle.swift in Sources */,
 				8F4028DC265084080036A0AB /* Root.swift in Sources */,
+				8F4029222650848C0036A0AB /* PatternButtonStyle.swift in Sources */,
+				8F40291F2650848C0036A0AB /* CameraService.swift in Sources */,
+				8F40292E2650848C0036A0AB /* DarkfieldCameraView.swift in Sources */,
+				8F4029282650848C0036A0AB /* HexagonalParameters.swift in Sources */,
+				8F4029342650848C0036A0AB /* AWSImagePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +576,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.0.5;
 				DEVELOPMENT_ASSET_PATHS = "\"CapstoneCellscope/Preview Content\"";
 				DEVELOPMENT_TEAM = 6FU786JJAZ;
 				ENABLE_PREVIEWS = YES;
@@ -289,10 +586,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = capstone.CapstoneCellscope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +600,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.0.5;
 				DEVELOPMENT_ASSET_PATHS = "\"CapstoneCellscope/Preview Content\"";
 				DEVELOPMENT_TEAM = 6FU786JJAZ;
 				ENABLE_PREVIEWS = YES;
@@ -311,10 +610,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = capstone.CapstoneCellscope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

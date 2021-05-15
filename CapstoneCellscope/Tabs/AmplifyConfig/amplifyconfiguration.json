@@ -1,0 +1,72 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "api": {
+        "plugins": {
+            "awsAPIPlugin": {
+                "cellscope": {
+                    "endpointType": "GraphQL",
+                    "endpoint": "https://4oughjrdbrajniejbws36j3rzq.appsync-api.us-east-2.amazonaws.com/graphql",
+                    "region": "us-east-2",
+                    "authorizationType": "API_KEY",
+                    "apiKey": "da2-h563emmwynbixnvlgoejnz2sh4"
+                }
+            }
+        }
+    },
+    "auth": {
+        "plugins": {
+            "awsCognitoAuthPlugin": {
+                "UserAgent": "aws-amplify/cli",
+                "Version": "0.1.0",
+                "IdentityManager": {
+                    "Default": {}
+                },
+                "CredentialsProvider": {
+                    "CognitoIdentity": {
+                        "Default": {
+                            "PoolId": "us-east-2:94efe14c-8a03-48e4-88b2-f13220ff6446",
+                            "Region": "us-east-2"
+                        }
+                    }
+                },
+                "CognitoUserPool": {
+                    "Default": {
+                        "PoolId": "us-east-2_gSptdv8td",
+                        "AppClientId": "77j96hpc47gjbrpe10h5ef1h2l",
+                        "Region": "us-east-2"
+                    }
+                },
+                "Auth": {
+                    "Default": {
+                        "authenticationFlowType": "USER_SRP_AUTH"
+                    }
+                },
+                "S3TransferUtility": {
+                    "Default": {
+                        "Bucket": "unprocessed-samples35741-dev",
+                        "Region": "us-east-2"
+                    }
+                },
+                "AppSync": {
+                    "Default": {
+                        "ApiUrl": "https://4oughjrdbrajniejbws36j3rzq.appsync-api.us-east-2.amazonaws.com/graphql",
+                        "Region": "us-east-2",
+                        "AuthMode": "API_KEY",
+                        "ApiKey": "da2-h563emmwynbixnvlgoejnz2sh4",
+                        "ClientDatabasePrefix": "cellscope_API_KEY"
+                    }
+                }
+            }
+        }
+    },
+    "storage": {
+        "plugins": {
+            "awsS3StoragePlugin": {
+                "bucket": "unprocessed-samples35741-dev",
+                "region": "us-east-2",
+                "defaultAccessLevel": "guest"
+            }
+        }
+    }
+}

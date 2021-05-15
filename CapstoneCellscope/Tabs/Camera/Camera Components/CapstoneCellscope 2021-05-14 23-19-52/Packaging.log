@@ -1,0 +1,790 @@
+2021-05-15 03:19:46 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x2c7a876f0; archive(resolved)='<IDEArchive: 0x2c262de20>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x15f32a330; teamID='6FU786JJAZ', teamName='Oni Castillo Ruz', teamType='Individual', username='castillo.zelda@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x2c7a876f0; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x15f32a330; teamID='6FU786JJAZ', teamName='Oni Castillo Ruz', teamType='Individual', username='castillo.zelda@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x2c7a13850; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x15f32a330; teamID='6FU786JJAZ', teamName='Oni Castillo Ruz', teamType='Individual', username='castillo.zelda@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x2c55b2260; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x15f32a330; teamID='6FU786JJAZ', teamName='Oni Castillo Ruz', teamType='Individual', username='castillo.zelda@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x2c55b07c0; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x15f32a330; teamID='6FU786JJAZ', teamName='Oni Castillo Ruz', teamType='Individual', username='castillo.zelda@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x2e230df70; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x15f32a330; teamID='6FU786JJAZ', teamName='Oni Castillo Ruz', teamType='Individual', username='castillo.zelda@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x2c7ec27c0; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x15f32a330; teamID='6FU786JJAZ', teamName='Oni Castillo Ruz', teamType='Individual', username='castillo.zelda@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x2c55b71f0; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x15f32a330; teamID='6FU786JJAZ', teamName='Oni Castillo Ruz', teamType='Individual', username='castillo.zelda@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x2e2d54900; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x15f32a330; teamID='6FU786JJAZ', teamName='Oni Castillo Ruz', teamType='Individual', username='castillo.zelda@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x2e2d57710; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x15f32a330; teamID='6FU786JJAZ', teamName='Oni Castillo Ruz', teamType='Individual', username='castillo.zelda@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x2c21f02f0; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team='(null)'>
+	<IDEDistributionContext: 0x2c5c32250; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x2e21ffd50>', team='(null)'>
+	<IDEDistributionContext: 0x2c5a22570; archive = '<IDEArchive: 0x2c262de20>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x2c7a876f0>
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionCreateDestRootStep
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionCopyItemStep
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app 
+2021-05-15 03:19:46 +0000  copying file ./_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  14575 bytes for ./_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./icon.png ... 
+2021-05-15 03:19:46 +0000  13309 bytes for ./icon.png
+2021-05-15 03:19:46 +0000  copying file ./AppIcon60x60@2x.png ... 
+2021-05-15 03:19:46 +0000  30330 bytes for ./AppIcon60x60@2x.png
+2021-05-15 03:19:46 +0000  copying file ./CapstoneCellscope ... 
+2021-05-15 03:19:46 +0000  36080816 bytes for ./CapstoneCellscope
+2021-05-15 03:19:46 +0000  copying file ./Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2021-05-15 03:19:46 +0000  3915 bytes for ./Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2021-05-15 03:19:46 +0000  copying file ./Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2021-05-15 03:19:46 +0000  896 bytes for ./Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib
+2021-05-15 03:19:46 +0000  copying file ./Launch Screen.storyboardc/Info.plist ... 
+2021-05-15 03:19:46 +0000  258 bytes for ./Launch Screen.storyboardc/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./Assets.car ... 
+2021-05-15 03:19:46 +0000  389151 bytes for ./Assets.car
+2021-05-15 03:19:46 +0000  copying file ./amplifyconfiguration.json ... 
+2021-05-15 03:19:46 +0000  2499 bytes for ./amplifyconfiguration.json
+2021-05-15 03:19:46 +0000  copying file ./awsconfiguration.json ... 
+2021-05-15 03:19:46 +0000  1143 bytes for ./awsconfiguration.json
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSPluginsCore.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/AWSPluginsCore.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSPluginsCore.framework/AWSPluginsCore ... 
+2021-05-15 03:19:46 +0000  2675456 bytes for ./Frameworks/AWSPluginsCore.framework/AWSPluginsCore
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSPluginsCore.framework/Info.plist ... 
+799 bytes for ./Frameworks/AWSPluginsCore.framework/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSCognitoIdentityProviderASF.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/AWSCognitoIdentityProviderASF.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF ... 
+2021-05-15 03:19:46 +0000  159648 bytes for ./Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSCognitoIdentityProviderASF.framework/Info.plist ... 
+2021-05-15 03:19:46 +0000  784 bytes for ./Frameworks/AWSCognitoIdentityProviderASF.framework/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSS3.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/AWSS3.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSS3.framework/Info.plist ... 
+2021-05-15 03:19:46 +0000  734 bytes for ./Frameworks/AWSS3.framework/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSS3.framework/AWSS3 ... 
+2021-05-15 03:19:46 +0000  7779152 bytes for ./Frameworks/AWSS3.framework/AWSS3
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSCognitoIdentityProvider.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/AWSCognitoIdentityProvider.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider ... 
+2021-05-15 03:19:46 +0000  6658336 bytes for ./Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider
+copying file ./Frameworks/AWSCognitoIdentityProvider.framework/Info.plist ... 
+2021-05-15 03:19:46 +0000  778 bytes for ./Frameworks/AWSCognitoIdentityProvider.framework/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AppSyncRealTimeClient.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/AppSyncRealTimeClient.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient ... 
+2021-05-15 03:19:46 +0000  1883424 bytes for ./Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AppSyncRealTimeClient.framework/Info.plist ... 
+767 bytes for ./Frameworks/AppSyncRealTimeClient.framework/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSCore.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/AWSCore.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSCore.framework/AWSCore ... 
+2021-05-15 03:19:46 +0000  6616624 bytes for ./Frameworks/AWSCore.framework/AWSCore
+copying file ./Frameworks/AWSCore.framework/Info.plist ... 
+2021-05-15 03:19:46 +0000  738 bytes for ./Frameworks/AWSCore.framework/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/Starscream.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/Starscream.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/Starscream.framework/Starscream ... 
+2021-05-15 03:19:46 +0000  1436848 bytes for ./Frameworks/Starscream.framework/Starscream
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/Starscream.framework/Info.plist ... 
+743 bytes for ./Frameworks/Starscream.framework/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/Amplify.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/Amplify.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/Amplify.framework/Amplify ... 
+2021-05-15 03:19:46 +0000  14570816 bytes for ./Frameworks/Amplify.framework/Amplify
+copying file ./Frameworks/Amplify.framework/Info.plist ... 
+2021-05-15 03:19:46 +0000  785 bytes for ./Frameworks/Amplify.framework/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSMobileClient.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/AWSMobileClient.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSMobileClient.framework/AWSMobileClient ... 
+2021-05-15 03:19:46 +0000  2574848 bytes for ./Frameworks/AWSMobileClient.framework/AWSMobileClient
+copying file ./Frameworks/AWSMobileClient.framework/Info.plist ... 
+2021-05-15 03:19:46 +0000  756 bytes for ./Frameworks/AWSMobileClient.framework/Info.plist
+copying file ./Frameworks/SQLite.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/SQLite.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/SQLite.framework/SQLite ... 
+2021-05-15 03:19:46 +0000  3335040 bytes for ./Frameworks/SQLite.framework/SQLite
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/SQLite.framework/Info.plist ... 
+736 bytes for ./Frameworks/SQLite.framework/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AmplifyPlugins.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/AmplifyPlugins.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AmplifyPlugins.framework/AmplifyPlugins ... 
+2021-05-15 03:19:46 +0000  13695888 bytes for ./Frameworks/AmplifyPlugins.framework/AmplifyPlugins
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AmplifyPlugins.framework/Info.plist ... 
+799 bytes for ./Frameworks/AmplifyPlugins.framework/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSAuthCore.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:46 +0000  1798 bytes for ./Frameworks/AWSAuthCore.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSAuthCore.framework/AWSAuthCore ... 
+2021-05-15 03:19:46 +0000  243792 bytes for ./Frameworks/AWSAuthCore.framework/AWSAuthCore
+2021-05-15 03:19:46 +0000  copying file ./Frameworks/AWSAuthCore.framework/Info.plist ... 
+2021-05-15 03:19:46 +0000  746 bytes for ./Frameworks/AWSAuthCore.framework/Info.plist
+2021-05-15 03:19:46 +0000  copying file ./embedded.mobileprovision ... 
+2021-05-15 03:19:46 +0000  11860 bytes for ./embedded.mobileprovision
+2021-05-15 03:19:46 +0000  copying file ./Info.plist ... 
+2021-05-15 03:19:46 +0000  2221 bytes for ./Info.plist
+2021-05-15 03:19:46 +0000  copying file ./PkgInfo ... 
+2021-05-15 03:19:46 +0000  8 bytes for ./PkgInfo
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionEmbedProfileStep
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x2e29463d0; bundleID='org.cocoapods.AWSAuthCore', path='<DVTFilePath:0x2e25eb140:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e29096c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x1583745c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSAuthCore', executablePath='<DVTFilePath:0x2c25ce160:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/AWSAuthCore'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x2e21d1520; bundleID='org.cocoapods.AWSCognitoIdentityProvider', path='<DVTFilePath:0x2e25edb30:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e296c8f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c5007ef0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCognitoIdentityProvider', executablePath='<DVTFilePath:0x2c5c8e590:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x2c5bce0d0; bundleID='org.cocoapods.AWSCognitoIdentityProviderASF', path='<DVTFilePath:0x2e25f0710:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5a0adf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c265d5e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCognitoIdentityProviderASF', executablePath='<DVTFilePath:0x2c2f1f170:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x176e33860; bundleID='org.cocoapods.AWSCore', path='<DVTFilePath:0x2e25f3400:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5a61ce0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2667270>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCore', executablePath='<DVTFilePath:0x2e2532f70:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCore.framework/AWSCore'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x2c5486330; bundleID='org.cocoapods.AWSMobileClient', path='<DVTFilePath:0x2e25f5da0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e25edae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2635790>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSMobileClient', executablePath='<DVTFilePath:0x2c17839f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/AWSMobileClient'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x2e25ff3a0; bundleID='org.cocoapods.AWSPluginsCore', path='<DVTFilePath:0x2e25f8850:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c0620760; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c264ec70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSPluginsCore', executablePath='<DVTFilePath:0x2c5aa48e0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/AWSPluginsCore'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x2c2e97160; bundleID='org.cocoapods.AWSS3', path='<DVTFilePath:0x2e25fb2e0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSS3.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c52bf8f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c267ee30>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSS3', executablePath='<DVTFilePath:0x2e294c280:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSS3.framework/AWSS3'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x2e2977070; bundleID='org.cocoapods.Amplify', path='<DVTFilePath:0x2e25e5690:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Amplify.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2225b30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2673bf0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.Amplify', executablePath='<DVTFilePath:0x2c1765960:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Amplify.framework/Amplify'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x2c60ade80; bundleID='org.cocoapods.AmplifyPlugins', path='<DVTFilePath:0x2e25e5bc0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x175722e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c267ee30>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AmplifyPlugins', executablePath='<DVTFilePath:0x175f6b9f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/AmplifyPlugins'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x2e25f7920; bundleID='org.cocoapods.AppSyncRealTimeClient', path='<DVTFilePath:0x2e25e85b0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5b0d2d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c267fb00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AppSyncRealTimeClient', executablePath='<DVTFilePath:0x2e295a950:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x2e295dc80; bundleID='org.cocoapods.SQLite', path='<DVTFilePath:0x2e25fdc60:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/SQLite.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c10dfbb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c267f960>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.SQLite', executablePath='<DVTFilePath:0x2c178d620:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/SQLite.framework/SQLite'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping profile for item: <IDEDistributionItem: 0x2e22d6890; bundleID='org.cocoapods.Starscream', path='<DVTFilePath:0x2e29045f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Starscream.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2f20630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1135c20; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2688b60>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.Starscream', executablePath='<DVTFilePath:0x15a0ee290:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Starscream.framework/Starscream'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionInfoPlistStep
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionItemRemovalStep
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/AWSAuthCore' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/AWSAuthCore'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework/AWSCore' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework/AWSCore'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/AWSMobileClient' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/AWSMobileClient'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/AWSPluginsCore' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/AWSPluginsCore'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework/AWSS3' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework/AWSS3'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Amplify.framework/Amplify' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Amplify.framework/Amplify'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/AmplifyPlugins' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/AmplifyPlugins'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/SQLite.framework/SQLite' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/SQLite.framework/SQLite'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Starscream.framework/Starscream' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Starscream.framework/Starscream'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/CapstoneCellscope' '-l' '-o' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/CapstoneCellscope'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/26F1F850-1B08-3079-9F0A-F4BB34C48CBA.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/26F1F850-1B08-3079-9F0A-F4BB34C48CBA.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/26F1F850-1B08-3079-9F0A-F4BB34C48CBA.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./26F1F850-1B08-3079-9F0A-F4BB34C48CBA.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  9758 bytes for ./26F1F850-1B08-3079-9F0A-F4BB34C48CBA.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/7BF957C7-8570-3C8C-BA3F-3566F054BFCC.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/7BF957C7-8570-3C8C-BA3F-3566F054BFCC.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/7BF957C7-8570-3C8C-BA3F-3566F054BFCC.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./7BF957C7-8570-3C8C-BA3F-3566F054BFCC.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  503931 bytes for ./7BF957C7-8570-3C8C-BA3F-3566F054BFCC.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/2DB691E7-AE63-32F3-8912-8C8FC6ED8430.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/2DB691E7-AE63-32F3-8912-8C8FC6ED8430.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/2DB691E7-AE63-32F3-8912-8C8FC6ED8430.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./2DB691E7-AE63-32F3-8912-8C8FC6ED8430.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  3915 bytes for ./2DB691E7-AE63-32F3-8912-8C8FC6ED8430.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/CAF23791-23EF-37F2-AAC9-FC607748B372.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/CAF23791-23EF-37F2-AAC9-FC607748B372.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/CAF23791-23EF-37F2-AAC9-FC607748B372.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./CAF23791-23EF-37F2-AAC9-FC607748B372.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  289422 bytes for ./CAF23791-23EF-37F2-AAC9-FC607748B372.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/114AB911-849C-3F21-A80B-5CB7BE510E65.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/114AB911-849C-3F21-A80B-5CB7BE510E65.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/114AB911-849C-3F21-A80B-5CB7BE510E65.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./114AB911-849C-3F21-A80B-5CB7BE510E65.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  217214 bytes for ./114AB911-849C-3F21-A80B-5CB7BE510E65.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/9FD9BEB3-5AA9-3515-9717-AE1A5D529EF4.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/9FD9BEB3-5AA9-3515-9717-AE1A5D529EF4.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/9FD9BEB3-5AA9-3515-9717-AE1A5D529EF4.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./9FD9BEB3-5AA9-3515-9717-AE1A5D529EF4.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  223109 bytes for ./9FD9BEB3-5AA9-3515-9717-AE1A5D529EF4.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/30980BEB-8673-3BFB-BF92-8F3EF156DD24.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/30980BEB-8673-3BFB-BF92-8F3EF156DD24.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/30980BEB-8673-3BFB-BF92-8F3EF156DD24.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./30980BEB-8673-3BFB-BF92-8F3EF156DD24.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  448325 bytes for ./30980BEB-8673-3BFB-BF92-8F3EF156DD24.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/2826C31C-78E2-3E66-8EC1-911C97750825.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/2826C31C-78E2-3E66-8EC1-911C97750825.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/2826C31C-78E2-3E66-8EC1-911C97750825.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./2826C31C-78E2-3E66-8EC1-911C97750825.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  1054579 bytes for ./2826C31C-78E2-3E66-8EC1-911C97750825.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/5276E037-4BBA-392D-961E-F8465C4B33F4.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/5276E037-4BBA-392D-961E-F8465C4B33F4.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/5276E037-4BBA-392D-961E-F8465C4B33F4.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./5276E037-4BBA-392D-961E-F8465C4B33F4.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  1173131 bytes for ./5276E037-4BBA-392D-961E-F8465C4B33F4.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/FB954088-6777-3BAF-A808-2E4379890865.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/FB954088-6777-3BAF-A808-2E4379890865.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/FB954088-6777-3BAF-A808-2E4379890865.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./FB954088-6777-3BAF-A808-2E4379890865.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  176615 bytes for ./FB954088-6777-3BAF-A808-2E4379890865.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/57153B8B-F83A-3A58-A054-4CC32E568D2B.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/57153B8B-F83A-3A58-A054-4CC32E568D2B.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/57153B8B-F83A-3A58-A054-4CC32E568D2B.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./57153B8B-F83A-3A58-A054-4CC32E568D2B.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  264627 bytes for ./57153B8B-F83A-3A58-A054-4CC32E568D2B.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/AEB7D724-4904-340C-816D-420BAC8F616E.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/AEB7D724-4904-340C-816D-420BAC8F616E.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/AEB7D724-4904-340C-816D-420BAC8F616E.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./AEB7D724-4904-340C-816D-420BAC8F616E.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  139730 bytes for ./AEB7D724-4904-340C-816D-420BAC8F616E.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Running /usr/bin/ditto '-V' '/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/D652F48C-5FA4-34C1-9A76-7B2DBECB12FE.bcsymbolmap' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/BCSymbolMaps/D652F48C-5FA4-34C1-9A76-7B2DBECB12FE.bcsymbolmap'
+2021-05-15 03:19:46 +0000  >>> Copying /Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/BCSymbolMaps/D652F48C-5FA4-34C1-9A76-7B2DBECB12FE.bcsymbolmap 
+2021-05-15 03:19:46 +0000  copying file ./D652F48C-5FA4-34C1-9A76-7B2DBECB12FE.bcsymbolmap ... 
+2021-05-15 03:19:46 +0000  4014825 bytes for ./D652F48C-5FA4-34C1-9A76-7B2DBECB12FE.bcsymbolmap
+2021-05-15 03:19:46 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionSymbolsStep
+2021-05-15 03:19:46 +0000  Excluding symbols for AWSAuthCore.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for AWSCognitoIdentityProvider.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for AWSCognitoIdentityProviderASF.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for AWSCore.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for AWSMobileClient.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for AWSPluginsCore.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for AWSS3.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for Amplify.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for AmplifyPlugins.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for AppSyncRealTimeClient.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for SQLite.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for Starscream.framework
+2021-05-15 03:19:46 +0000  Excluding symbols for CapstoneCellscope.app
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionAppThinningStep
+2021-05-15 03:19:46 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionArchThinningStep
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/AWSAuthCore' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "AWSAuthCore" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "AWSCognitoIdentityProvider" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "AWSCognitoIdentityProviderASF" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework/AWSCore' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "AWSCore" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/AWSMobileClient' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "AWSMobileClient" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/AWSPluginsCore' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "AWSPluginsCore" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework/AWSS3' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "AWSS3" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Amplify.framework/Amplify' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "Amplify" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/AmplifyPlugins' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "AmplifyPlugins" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "AppSyncRealTimeClient" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/SQLite.framework/SQLite' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "SQLite" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Starscream.framework/Starscream' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "Starscream" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/CapstoneCellscope' '-verify_arch' 'arm64e'
+2021-05-15 03:19:46 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-05-15 03:19:46 +0000  Skipping architecture thinning for item "CapstoneCellscope" because arch "arm64e" wasn't found
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionODRStep
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionStripXattrsStep
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2e29463d0; bundleID='org.cocoapods.AWSAuthCore', path='<DVTFilePath:0x2e25eb140:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e29096c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2680680; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c262ad10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSAuthCore', executablePath='<DVTFilePath:0x2c25ce160:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/AWSAuthCore'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2e21d1520; bundleID='org.cocoapods.AWSCognitoIdentityProvider', path='<DVTFilePath:0x2e25edb30:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e296c8f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c262cac0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c262ca30>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCognitoIdentityProvider', executablePath='<DVTFilePath:0x2c5c8e590:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2c5bce0d0; bundleID='org.cocoapods.AWSCognitoIdentityProviderASF', path='<DVTFilePath:0x2e25f0710:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5a0adf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c262cb90; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c262cc40>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCognitoIdentityProviderASF', executablePath='<DVTFilePath:0x2c2f1f170:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x176e33860; bundleID='org.cocoapods.AWSCore', path='<DVTFilePath:0x2e25f3400:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5a61ce0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c5a8a120; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c10aaca0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCore', executablePath='<DVTFilePath:0x2e2532f70:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCore.framework/AWSCore'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2c5486330; bundleID='org.cocoapods.AWSMobileClient', path='<DVTFilePath:0x2e25f5da0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e25edae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2627130; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2678730>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSMobileClient', executablePath='<DVTFilePath:0x2c17839f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/AWSMobileClient'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2e25ff3a0; bundleID='org.cocoapods.AWSPluginsCore', path='<DVTFilePath:0x2e25f8850:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c0620760; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2e2fa7d90; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c265df80>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSPluginsCore', executablePath='<DVTFilePath:0x2c5aa48e0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/AWSPluginsCore'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2c2e97160; bundleID='org.cocoapods.AWSS3', path='<DVTFilePath:0x2e25fb2e0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSS3.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c52bf8f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2e2fa7d90; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2627260>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSS3', executablePath='<DVTFilePath:0x2e294c280:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSS3.framework/AWSS3'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2e2977070; bundleID='org.cocoapods.Amplify', path='<DVTFilePath:0x2e25e5690:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Amplify.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2225b30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2e2f09b50; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2627260>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.Amplify', executablePath='<DVTFilePath:0x2c1765960:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Amplify.framework/Amplify'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2c60ade80; bundleID='org.cocoapods.AmplifyPlugins', path='<DVTFilePath:0x2e25e5bc0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x175722e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2e2f31c70; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2627190>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AmplifyPlugins', executablePath='<DVTFilePath:0x175f6b9f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/AmplifyPlugins'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2e25f7920; bundleID='org.cocoapods.AppSyncRealTimeClient', path='<DVTFilePath:0x2e25e85b0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5b0d2d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2627160; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2627250>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AppSyncRealTimeClient', executablePath='<DVTFilePath:0x2e295a950:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2e295dc80; bundleID='org.cocoapods.SQLite', path='<DVTFilePath:0x2e25fdc60:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/SQLite.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c10dfbb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2682d50; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2682e00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.SQLite', executablePath='<DVTFilePath:0x2c178d620:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/SQLite.framework/SQLite'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x2e22d6890; bundleID='org.cocoapods.Starscream', path='<DVTFilePath:0x2e29045f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Starscream.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2f20630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2656d90; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c262a220>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.Starscream', executablePath='<DVTFilePath:0x15a0ee290:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Starscream.framework/Starscream'>', hardenedRuntime='0'>'>
+2021-05-15 03:19:46 +0000  Running /usr/bin/xattr '-crs' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app'
+2021-05-15 03:19:46 +0000  /usr/bin/xattr exited with 0
+2021-05-15 03:19:46 +0000  Processing step: IDEDistributionCodesignStep
+2021-05-15 03:19:46 +0000  Entitlements for <IDEDistributionItem: 0x2e29463d0; bundleID='org.cocoapods.AWSAuthCore', path='<DVTFilePath:0x2e25eb140:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e29096c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2632660; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2632560>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSAuthCore', executablePath='<DVTFilePath:0x2c25ce160:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/AWSAuthCore'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:46 +0000  Entitlements for <IDEDistributionItem: 0x2e29463d0; bundleID='org.cocoapods.AWSAuthCore', path='<DVTFilePath:0x2e25eb140:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e29096c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2631e80; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2658d20>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSAuthCore', executablePath='<DVTFilePath:0x2c25ce160:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/AWSAuthCore'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:46 +0000  Writing entitlements for <IDEDistributionItem: 0x2e29463d0; bundleID='org.cocoapods.AWSAuthCore', path='<DVTFilePath:0x2e25eb140:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e29096c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2658ae0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2655ec0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSAuthCore', executablePath='<DVTFilePath:0x2c25ce160:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/AWSAuthCore'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~sKnXXu
+2021-05-15 03:19:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~sKnXXu' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework'
+2021-05-15 03:19:46 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.AWSAuthCore]
+2021-05-15 03:19:46 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:46 +0000  Entitlements for <IDEDistributionItem: 0x2e21d1520; bundleID='org.cocoapods.AWSCognitoIdentityProvider', path='<DVTFilePath:0x2e25edb30:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e296c8f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x1778d5be0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1777350>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCognitoIdentityProvider', executablePath='<DVTFilePath:0x2c5c8e590:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:46 +0000  Entitlements for <IDEDistributionItem: 0x2e21d1520; bundleID='org.cocoapods.AWSCognitoIdentityProvider', path='<DVTFilePath:0x2e25edb30:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e296c8f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c26336b0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2667260>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCognitoIdentityProvider', executablePath='<DVTFilePath:0x2c5c8e590:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:46 +0000  Writing entitlements for <IDEDistributionItem: 0x2e21d1520; bundleID='org.cocoapods.AWSCognitoIdentityProvider', path='<DVTFilePath:0x2e25edb30:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e296c8f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2632a80; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c262a640>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCognitoIdentityProvider', executablePath='<DVTFilePath:0x2c5c8e590:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~Nxy7mJ
+2021-05-15 03:19:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~Nxy7mJ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework'
+2021-05-15 03:19:46 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.AWSCognitoIdentityProvider]
+2021-05-15 03:19:46 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:46 +0000  Entitlements for <IDEDistributionItem: 0x2c5bce0d0; bundleID='org.cocoapods.AWSCognitoIdentityProviderASF', path='<DVTFilePath:0x2e25f0710:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5a0adf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c17921c0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1792270>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCognitoIdentityProviderASF', executablePath='<DVTFilePath:0x2c2f1f170:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:46 +0000  Entitlements for <IDEDistributionItem: 0x2c5bce0d0; bundleID='org.cocoapods.AWSCognitoIdentityProviderASF', path='<DVTFilePath:0x2e25f0710:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5a0adf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c5a8a120; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x1761ef610>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCognitoIdentityProviderASF', executablePath='<DVTFilePath:0x2c2f1f170:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:46 +0000  Writing entitlements for <IDEDistributionItem: 0x2c5bce0d0; bundleID='org.cocoapods.AWSCognitoIdentityProviderASF', path='<DVTFilePath:0x2e25f0710:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5a0adf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2e25df640; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1030000>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCognitoIdentityProviderASF', executablePath='<DVTFilePath:0x2c2f1f170:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~p5X6e4
+2021-05-15 03:19:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~p5X6e4' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework'
+2021-05-15 03:19:47 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.AWSCognitoIdentityProviderASF]
+2021-05-15 03:19:47 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x176e33860; bundleID='org.cocoapods.AWSCore', path='<DVTFilePath:0x2e25f3400:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5a61ce0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2687970; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2626830>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCore', executablePath='<DVTFilePath:0x2e2532f70:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCore.framework/AWSCore'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x176e33860; bundleID='org.cocoapods.AWSCore', path='<DVTFilePath:0x2e25f3400:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5a61ce0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2630240; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c262d5b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCore', executablePath='<DVTFilePath:0x2e2532f70:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCore.framework/AWSCore'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:47 +0000  Writing entitlements for <IDEDistributionItem: 0x176e33860; bundleID='org.cocoapods.AWSCore', path='<DVTFilePath:0x2e25f3400:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5a61ce0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2679ea0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2681c50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSCore', executablePath='<DVTFilePath:0x2e2532f70:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSCore.framework/AWSCore'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~CmN1Rt
+2021-05-15 03:19:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~CmN1Rt' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework'
+2021-05-15 03:19:47 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.AWSCore]
+2021-05-15 03:19:47 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2c5486330; bundleID='org.cocoapods.AWSMobileClient', path='<DVTFilePath:0x2e25f5da0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e25edae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c17909a0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1790a50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSMobileClient', executablePath='<DVTFilePath:0x2c17839f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/AWSMobileClient'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2c5486330; bundleID='org.cocoapods.AWSMobileClient', path='<DVTFilePath:0x2e25f5da0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e25edae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c5a8a120; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x1761df3b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSMobileClient', executablePath='<DVTFilePath:0x2c17839f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/AWSMobileClient'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:47 +0000  Writing entitlements for <IDEDistributionItem: 0x2c5486330; bundleID='org.cocoapods.AWSMobileClient', path='<DVTFilePath:0x2e25f5da0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e25edae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2650dc0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2650e70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSMobileClient', executablePath='<DVTFilePath:0x2c17839f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/AWSMobileClient'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~bhURF5
+2021-05-15 03:19:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~bhURF5' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework'
+2021-05-15 03:19:47 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.AWSMobileClient]
+2021-05-15 03:19:47 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2e25ff3a0; bundleID='org.cocoapods.AWSPluginsCore', path='<DVTFilePath:0x2e25f8850:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c0620760; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2657a10; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2666d30>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSPluginsCore', executablePath='<DVTFilePath:0x2c5aa48e0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/AWSPluginsCore'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2e25ff3a0; bundleID='org.cocoapods.AWSPluginsCore', path='<DVTFilePath:0x2e25f8850:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c0620760; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2630130; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2630210>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSPluginsCore', executablePath='<DVTFilePath:0x2c5aa48e0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/AWSPluginsCore'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:47 +0000  Writing entitlements for <IDEDistributionItem: 0x2e25ff3a0; bundleID='org.cocoapods.AWSPluginsCore', path='<DVTFilePath:0x2e25f8850:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c0620760; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c262d3b0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2681a00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSPluginsCore', executablePath='<DVTFilePath:0x2c5aa48e0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/AWSPluginsCore'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~7xIGNA
+2021-05-15 03:19:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~7xIGNA' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework'
+2021-05-15 03:19:47 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.AWSPluginsCore]
+2021-05-15 03:19:47 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2c2e97160; bundleID='org.cocoapods.AWSS3', path='<DVTFilePath:0x2e25fb2e0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSS3.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c52bf8f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1792950; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c17659d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSS3', executablePath='<DVTFilePath:0x2e294c280:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSS3.framework/AWSS3'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2c2e97160; bundleID='org.cocoapods.AWSS3', path='<DVTFilePath:0x2e25fb2e0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSS3.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c52bf8f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c5b3a7d0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x1761ef610>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSS3', executablePath='<DVTFilePath:0x2e294c280:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSS3.framework/AWSS3'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:47 +0000  Writing entitlements for <IDEDistributionItem: 0x2c2e97160; bundleID='org.cocoapods.AWSS3', path='<DVTFilePath:0x2e25fb2e0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSS3.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c52bf8f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2e2966c40; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1030000>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AWSS3', executablePath='<DVTFilePath:0x2e294c280:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AWSS3.framework/AWSS3'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~tULqbI
+2021-05-15 03:19:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~tULqbI' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework'
+2021-05-15 03:19:47 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.AWSS3]
+2021-05-15 03:19:47 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2e2977070; bundleID='org.cocoapods.Amplify', path='<DVTFilePath:0x2e25e5690:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Amplify.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2225b30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1783900; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c17659d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.Amplify', executablePath='<DVTFilePath:0x2c1765960:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Amplify.framework/Amplify'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2e2977070; bundleID='org.cocoapods.Amplify', path='<DVTFilePath:0x2e25e5690:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Amplify.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2225b30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c5b3a7d0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x1761df3b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.Amplify', executablePath='<DVTFilePath:0x2c1765960:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Amplify.framework/Amplify'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:47 +0000  Writing entitlements for <IDEDistributionItem: 0x2e2977070; bundleID='org.cocoapods.Amplify', path='<DVTFilePath:0x2e25e5690:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Amplify.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2225b30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2e295c820; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1069580>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.Amplify', executablePath='<DVTFilePath:0x2c1765960:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Amplify.framework/Amplify'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~2KLVur
+2021-05-15 03:19:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~2KLVur' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Amplify.framework'
+2021-05-15 03:19:47 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Amplify.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.Amplify]
+2021-05-15 03:19:47 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2c60ade80; bundleID='org.cocoapods.AmplifyPlugins', path='<DVTFilePath:0x2e25e5bc0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x175722e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c178ce80; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1781b40>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AmplifyPlugins', executablePath='<DVTFilePath:0x175f6b9f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/AmplifyPlugins'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2c60ade80; bundleID='org.cocoapods.AmplifyPlugins', path='<DVTFilePath:0x2e25e5bc0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x175722e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c5b3a7d0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x1761df3b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AmplifyPlugins', executablePath='<DVTFilePath:0x175f6b9f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/AmplifyPlugins'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:47 +0000  Writing entitlements for <IDEDistributionItem: 0x2c60ade80; bundleID='org.cocoapods.AmplifyPlugins', path='<DVTFilePath:0x2e25e5bc0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x175722e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c2650dc0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c26791d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AmplifyPlugins', executablePath='<DVTFilePath:0x175f6b9f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/AmplifyPlugins'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~H1xdDm
+2021-05-15 03:19:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~H1xdDm' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework'
+2021-05-15 03:19:47 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.AmplifyPlugins]
+2021-05-15 03:19:47 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2e25f7920; bundleID='org.cocoapods.AppSyncRealTimeClient', path='<DVTFilePath:0x2e25e85b0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5b0d2d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1782210; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1797740>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AppSyncRealTimeClient', executablePath='<DVTFilePath:0x2e295a950:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2e25f7920; bundleID='org.cocoapods.AppSyncRealTimeClient', path='<DVTFilePath:0x2e25e85b0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5b0d2d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c26792d0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2657980>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AppSyncRealTimeClient', executablePath='<DVTFilePath:0x2e295a950:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:47 +0000  Writing entitlements for <IDEDistributionItem: 0x2e25f7920; bundleID='org.cocoapods.AppSyncRealTimeClient', path='<DVTFilePath:0x2e25e85b0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c5b0d2d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c26680c0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c2668170>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.AppSyncRealTimeClient', executablePath='<DVTFilePath:0x2e295a950:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~KLHEYr
+2021-05-15 03:19:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~KLHEYr' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework'
+2021-05-15 03:19:47 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.AppSyncRealTimeClient]
+2021-05-15 03:19:47 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2e295dc80; bundleID='org.cocoapods.SQLite', path='<DVTFilePath:0x2e25fdc60:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/SQLite.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c10dfbb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c178e320; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1797740>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.SQLite', executablePath='<DVTFilePath:0x2c178d620:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/SQLite.framework/SQLite'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2e295dc80; bundleID='org.cocoapods.SQLite', path='<DVTFilePath:0x2e25fdc60:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/SQLite.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c10dfbb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c5b3a7d0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x1761df3b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.SQLite', executablePath='<DVTFilePath:0x2c178d620:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/SQLite.framework/SQLite'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:47 +0000  Writing entitlements for <IDEDistributionItem: 0x2e295dc80; bundleID='org.cocoapods.SQLite', path='<DVTFilePath:0x2e25fdc60:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/SQLite.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2c10dfbb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2e295b150; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1016c00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.SQLite', executablePath='<DVTFilePath:0x2c178d620:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/SQLite.framework/SQLite'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~DSUbhJ
+2021-05-15 03:19:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~DSUbhJ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/SQLite.framework'
+2021-05-15 03:19:47 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/SQLite.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SQLite]
+2021-05-15 03:19:47 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2e22d6890; bundleID='org.cocoapods.Starscream', path='<DVTFilePath:0x2e29045f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Starscream.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2f20630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c179b1c0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1797740>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.Starscream', executablePath='<DVTFilePath:0x15a0ee290:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Starscream.framework/Starscream'>', hardenedRuntime='0'>'>: {
+}
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2e22d6890; bundleID='org.cocoapods.Starscream', path='<DVTFilePath:0x2e29045f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Starscream.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2f20630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c5b3a7d0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x1761df3b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.Starscream', executablePath='<DVTFilePath:0x15a0ee290:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Starscream.framework/Starscream'>', hardenedRuntime='0'>'> are: {
+}
+2021-05-15 03:19:47 +0000  Writing entitlements for <IDEDistributionItem: 0x2e22d6890; bundleID='org.cocoapods.Starscream', path='<DVTFilePath:0x2e29045f0:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Starscream.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2f20630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2e22d50d0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c10aaca0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='(null)', teamID='6FU786JJAZ', identifier='org.cocoapods.Starscream', executablePath='<DVTFilePath:0x15a0ee290:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/Frameworks/Starscream.framework/Starscream'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~nbgQZt
+2021-05-15 03:19:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~nbgQZt' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Starscream.framework'
+2021-05-15 03:19:47 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Starscream.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Starscream]
+2021-05-15 03:19:47 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2c2676be0; bundleID='capstone.CapstoneCellscope', path='<DVTFilePath:0x2e25dde30:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2f215c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c1778e00; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c1797740>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='{
+    "application-identifier" = "6FU786JJAZ.capstone.CapstoneCellscope";
+    "com.apple.developer.team-identifier" = 6FU786JJAZ;
+    "get-task-allow" = 1;
+}', teamID='6FU786JJAZ', identifier='capstone.CapstoneCellscope', executablePath='<DVTFilePath:0x2e2e6ff10:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/CapstoneCellscope'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "6FU786JJAZ.capstone.CapstoneCellscope";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 6FU786JJAZ;
+    "get-task-allow" = 0;
+}
+2021-05-15 03:19:47 +0000  Entitlements for <IDEDistributionItem: 0x2c2676be0; bundleID='capstone.CapstoneCellscope', path='<DVTFilePath:0x2e25dde30:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2f215c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2c5b3a7d0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x1761df3b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='{
+    "application-identifier" = "6FU786JJAZ.capstone.CapstoneCellscope";
+    "com.apple.developer.team-identifier" = 6FU786JJAZ;
+    "get-task-allow" = 1;
+}', teamID='6FU786JJAZ', identifier='capstone.CapstoneCellscope', executablePath='<DVTFilePath:0x2e2e6ff10:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/CapstoneCellscope'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "6FU786JJAZ.capstone.CapstoneCellscope";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 6FU786JJAZ;
+    "get-task-allow" = 0;
+}
+2021-05-15 03:19:47 +0000  Writing entitlements for <IDEDistributionItem: 0x2c2676be0; bundleID='capstone.CapstoneCellscope', path='<DVTFilePath:0x2e25dde30:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x2e2f215c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2e29310f0; name='Apple Development: castillo.zelda@gmail.com (F27JR8468R)', hash='479529182E71CC73CF8FF36E10C253639A866F01', serialNumber='<DVTSigningCertificateSerialNumber: 0x2c10cf310>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-04-21 22:37:49 +0000''>', entitlements='{
+    "application-identifier" = "6FU786JJAZ.capstone.CapstoneCellscope";
+    "com.apple.developer.team-identifier" = 6FU786JJAZ;
+    "get-task-allow" = 1;
+}', teamID='6FU786JJAZ', identifier='capstone.CapstoneCellscope', executablePath='<DVTFilePath:0x2e2e6ff10:'/Users/oni/Library/Developer/Xcode/Archives/2021-05-14/CapstoneCellscope 5-14-21, 11.18 PM.xcarchive/Products/Applications/CapstoneCellscope.app/CapstoneCellscope'>', hardenedRuntime='0'>'> to: /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~VbgxAb
+2021-05-15 03:19:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '605B4ECCBD692432C93EC124AC1DCF99A95A9A86' '--entitlements' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/entitlements~~~VbgxAb' '--preserve-metadata=identifier,flags,runtime' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app'
+2021-05-15 03:19:47 +0000  /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app: signed app bundle with Mach-O thin (arm64) [capstone.CapstoneCellscope]
+2021-05-15 03:19:47 +0000  /usr/bin/codesign exited with 0
+2021-05-15 03:19:47 +0000  Processing step: IDEDistributionZipODRItemStep
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-05-15 03:19:47 +0000  Processing step: IDEDistributionCreateIPAStep
+2021-05-15 03:19:47 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root' '/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Packages/CapstoneCellscope.ipa'
+2021-05-15 03:19:47 +0000  >>> Copying /var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root 
+2021-05-15 03:19:47 +0000  copying file ./BCSymbolMaps/9FD9BEB3-5AA9-3515-9717-AE1A5D529EF4.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  223109 bytes for ./BCSymbolMaps/9FD9BEB3-5AA9-3515-9717-AE1A5D529EF4.bcsymbolmap
+2021-05-15 03:19:47 +0000  copying file ./BCSymbolMaps/AEB7D724-4904-340C-816D-420BAC8F616E.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  139730 bytes for ./BCSymbolMaps/AEB7D724-4904-340C-816D-420BAC8F616E.bcsymbolmap
+2021-05-15 03:19:47 +0000  copying file ./BCSymbolMaps/114AB911-849C-3F21-A80B-5CB7BE510E65.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  217214 bytes for ./BCSymbolMaps/114AB911-849C-3F21-A80B-5CB7BE510E65.bcsymbolmap
+2021-05-15 03:19:47 +0000  copying file ./BCSymbolMaps/30980BEB-8673-3BFB-BF92-8F3EF156DD24.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  448325 bytes for ./BCSymbolMaps/30980BEB-8673-3BFB-BF92-8F3EF156DD24.bcsymbolmap
+2021-05-15 03:19:47 +0000  copying file ./BCSymbolMaps/7BF957C7-8570-3C8C-BA3F-3566F054BFCC.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  503931 bytes for ./BCSymbolMaps/7BF957C7-8570-3C8C-BA3F-3566F054BFCC.bcsymbolmap
+copying file ./BCSymbolMaps/26F1F850-1B08-3079-9F0A-F4BB34C48CBA.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  9758 bytes for ./BCSymbolMaps/26F1F850-1B08-3079-9F0A-F4BB34C48CBA.bcsymbolmap
+2021-05-15 03:19:47 +0000  copying file ./BCSymbolMaps/2826C31C-78E2-3E66-8EC1-911C97750825.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  1054579 bytes for ./BCSymbolMaps/2826C31C-78E2-3E66-8EC1-911C97750825.bcsymbolmap
+2021-05-15 03:19:47 +0000  copying file ./BCSymbolMaps/D652F48C-5FA4-34C1-9A76-7B2DBECB12FE.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  4014825 bytes for ./BCSymbolMaps/D652F48C-5FA4-34C1-9A76-7B2DBECB12FE.bcsymbolmap
+copying file ./BCSymbolMaps/57153B8B-F83A-3A58-A054-4CC32E568D2B.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  264627 bytes for ./BCSymbolMaps/57153B8B-F83A-3A58-A054-4CC32E568D2B.bcsymbolmap
+copying file ./BCSymbolMaps/FB954088-6777-3BAF-A808-2E4379890865.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  176615 bytes for ./BCSymbolMaps/FB954088-6777-3BAF-A808-2E4379890865.bcsymbolmap
+copying file ./BCSymbolMaps/CAF23791-23EF-37F2-AAC9-FC607748B372.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  289422 bytes for ./BCSymbolMaps/CAF23791-23EF-37F2-AAC9-FC607748B372.bcsymbolmap
+copying file ./BCSymbolMaps/2DB691E7-AE63-32F3-8912-8C8FC6ED8430.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  3915 bytes for ./BCSymbolMaps/2DB691E7-AE63-32F3-8912-8C8FC6ED8430.bcsymbolmap
+2021-05-15 03:19:47 +0000  copying file ./BCSymbolMaps/5276E037-4BBA-392D-961E-F8465C4B33F4.bcsymbolmap ... 
+2021-05-15 03:19:47 +0000  1173131 bytes for ./BCSymbolMaps/5276E037-4BBA-392D-961E-F8465C4B33F4.bcsymbolmap
+2021-05-15 03:19:47 +0000  copying file ./Payload/CapstoneCellscope.app/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:47 +0000  14575 bytes for ./Payload/CapstoneCellscope.app/_CodeSignature/CodeResources
+2021-05-15 03:19:47 +0000  copying file ./Payload/CapstoneCellscope.app/icon.png ... 
+2021-05-15 03:19:47 +0000  13309 bytes for ./Payload/CapstoneCellscope.app/icon.png
+2021-05-15 03:19:47 +0000  copying file ./Payload/CapstoneCellscope.app/AppIcon60x60@2x.png ... 
+2021-05-15 03:19:47 +0000  30330 bytes for ./Payload/CapstoneCellscope.app/AppIcon60x60@2x.png
+copying file ./Payload/CapstoneCellscope.app/CapstoneCellscope ... 
+2021-05-15 03:19:48 +0000  30706592 bytes for ./Payload/CapstoneCellscope.app/CapstoneCellscope
+2021-05-15 03:19:48 +0000  copying file ./Payload/CapstoneCellscope.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2021-05-15 03:19:48 +0000  3915 bytes for ./Payload/CapstoneCellscope.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/CapstoneCellscope.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2021-05-15 03:19:48 +0000  896 bytes for ./Payload/CapstoneCellscope.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/CapstoneCellscope.app/Launch Screen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/CapstoneCellscope.app/Launch Screen.storyboardc/Info.plist
+2021-05-15 03:19:48 +0000  copying file ./Payload/CapstoneCellscope.app/Assets.car ... 
+2021-05-15 03:19:48 +0000  389151 bytes for ./Payload/CapstoneCellscope.app/Assets.car
+copying file ./Payload/CapstoneCellscope.app/amplifyconfiguration.json ... 
+2021-05-15 03:19:48 +0000  2499 bytes for ./Payload/CapstoneCellscope.app/amplifyconfiguration.json
+copying file ./Payload/CapstoneCellscope.app/awsconfiguration.json ... 
+2021-05-15 03:19:48 +0000  1143 bytes for ./Payload/CapstoneCellscope.app/awsconfiguration.json
+2021-05-15 03:19:48 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:48 +0000  1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/_CodeSignature/CodeResources
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/AWSPluginsCore ... 
+2021-05-15 03:19:48 +0000  1954640 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/AWSPluginsCore
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/Info.plist ... 
+2021-05-15 03:19:48 +0000  799 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework/Info.plist
+2021-05-15 03:19:48 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:48 +0000  1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:48 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF ... 
+2021-05-15 03:19:48 +0000  128816 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/Info.plist ... 
+2021-05-15 03:19:48 +0000  784 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework/Info.plist
+2021-05-15 03:19:48 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:48 +0000  1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:48 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework/Info.plist ... 
+2021-05-15 03:19:48 +0000  734 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework/Info.plist
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework/AWSS3 ... 
+2021-05-15 03:19:48 +0000  4347840 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework/AWSS3
+2021-05-15 03:19:48 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:48 +0000  1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/_CodeSignature/CodeResources
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider ... 
+2021-05-15 03:19:48 +0000  3767024 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/Info.plist ... 
+2021-05-15 03:19:48 +0000  778 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework/Info.plist
+2021-05-15 03:19:48 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:48 +0000  1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:48 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient ... 
+2021-05-15 03:19:48 +0000  1305984 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/Info.plist ... 
+2021-05-15 03:19:48 +0000  767 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework/Info.plist
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework/_CodeSignature/CodeResources
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework/AWSCore ... 
+2021-05-15 03:19:48 +0000  4590416 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework/AWSCore
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework/Info.plist ... 
+2021-05-15 03:19:48 +0000  738 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework/Info.plist
+copying file ./Payload/CapstoneCellscope.app/Frameworks/Starscream.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:48 +0000  1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/Starscream.framework/_CodeSignature/CodeResources
+copying file ./Payload/CapstoneCellscope.app/Frameworks/Starscream.framework/Starscream ... 
+2021-05-15 03:19:49 +0000  969840 bytes for ./Payload/CapstoneCellscope.app/Frameworks/Starscream.framework/Starscream
+copying file ./Payload/CapstoneCellscope.app/Frameworks/Starscream.framework/Info.plist ... 
+2021-05-15 03:19:49 +0000  743 bytes for ./Payload/CapstoneCellscope.app/Frameworks/Starscream.framework/Info.plist
+2021-05-15 03:19:49 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/Amplify.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:49 +0000  1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/Amplify.framework/_CodeSignature/CodeResources
+copying file ./Payload/CapstoneCellscope.app/Frameworks/Amplify.framework/Amplify ... 
+2021-05-15 03:19:49 +0000  10788576 bytes for ./Payload/CapstoneCellscope.app/Frameworks/Amplify.framework/Amplify
+copying file ./Payload/CapstoneCellscope.app/Frameworks/Amplify.framework/Info.plist ... 
+2021-05-15 03:19:49 +0000  785 bytes for ./Payload/CapstoneCellscope.app/Frameworks/Amplify.framework/Info.plist
+2021-05-15 03:19:49 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:49 +0000  1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/_CodeSignature/CodeResources
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/AWSMobileClient ... 
+2021-05-15 03:19:49 +0000  1786832 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/AWSMobileClient
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/Info.plist ... 
+2021-05-15 03:19:49 +0000  756 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework/Info.plist
+2021-05-15 03:19:49 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/SQLite.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:49 +0000  1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/SQLite.framework/_CodeSignature/CodeResources
+2021-05-15 03:19:49 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/SQLite.framework/SQLite ... 
+2021-05-15 03:19:49 +0000  2267840 bytes for ./Payload/CapstoneCellscope.app/Frameworks/SQLite.framework/SQLite
+copying file ./Payload/CapstoneCellscope.app/Frameworks/SQLite.framework/Info.plist ... 
+2021-05-15 03:19:49 +0000  736 bytes for ./Payload/CapstoneCellscope.app/Frameworks/SQLite.framework/Info.plist
+2021-05-15 03:19:49 +0000  copying file ./Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:49 +0000  1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/_CodeSignature/CodeResources
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/AmplifyPlugins ... 
+2021-05-15 03:19:49 +0000  10154496 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/AmplifyPlugins
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/Info.plist ... 
+2021-05-15 03:19:49 +0000  799 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework/Info.plist
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/_CodeSignature/CodeResources ... 
+2021-05-15 03:19:49 +0000  1798 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/_CodeSignature/CodeResources
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/AWSAuthCore ... 
+2021-05-15 03:19:49 +0000  186784 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/AWSAuthCore
+copying file ./Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/Info.plist ... 
+2021-05-15 03:19:49 +0000  746 bytes for ./Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework/Info.plist
+2021-05-15 03:19:49 +0000  copying file ./Payload/CapstoneCellscope.app/embedded.mobileprovision ... 
+2021-05-15 03:19:49 +0000  7656 bytes for ./Payload/CapstoneCellscope.app/embedded.mobileprovision
+2021-05-15 03:19:49 +0000  copying file ./Payload/CapstoneCellscope.app/Info.plist ... 
+2021-05-15 03:19:49 +0000  2221 bytes for ./Payload/CapstoneCellscope.app/Info.plist
+2021-05-15 03:19:49 +0000  copying file ./Payload/CapstoneCellscope.app/PkgInfo ... 
+8 bytes for ./Payload/CapstoneCellscope.app/PkgInfo
+2021-05-15 03:19:49 +0000  /usr/bin/ditto exited with 0
+2021-05-15 03:19:49 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2021-05-15 03:19:49 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2021-05-15 03:19:49 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2e2f803c0:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCore.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2c26695c0:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProviderASF.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2e2f18820:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AmplifyPlugins.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2e2f0a990:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSMobileClient.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2e2f84e90:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Starscream.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2e2f1bf20:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/SQLite.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2e2f89630:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/Amplify.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2c2613920:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSS3.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2e2f08810:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSAuthCore.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2e2f938c0:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AppSyncRealTimeClient.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2e2fb1570:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSCognitoIdentityProvider.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x2c262d4e0:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app/Frameworks/AWSPluginsCore.framework'>
+2021-05-15 03:19:49 +0000  IDEDistributionItem init <DVTFilePath:0x176844a10:'/var/folders/nm/czq5f9692352zsj5xyzk1ygr0000gn/T/XcodeDistPipeline.~~~4DK5wX/Root/Payload/CapstoneCellscope.app'>
+2021-05-15 03:19:49 +0000  Processing step: IDEDistributionCreateManifestStep
+2021-05-15 03:19:49 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
