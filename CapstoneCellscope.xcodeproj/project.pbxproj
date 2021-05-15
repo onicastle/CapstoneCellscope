@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F4028C826507F6C0036A0AB /* CapstoneCellscopeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028C726507F6C0036A0AB /* CapstoneCellscopeApp.swift */; };
-		8F4028CA26507F6C0036A0AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028C926507F6C0036A0AB /* ContentView.swift */; };
 		8F4028CC26507F6D0036A0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028CB26507F6D0036A0AB /* Assets.xcassets */; };
 		8F4028CF26507F6D0036A0AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028CE26507F6D0036A0AB /* Preview Assets.xcassets */; };
+		8F4028D726507F910036A0AB /* CapstoneCellscopeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028D626507F910036A0AB /* CapstoneCellscopeApp.swift */; };
+		8F4028D926507FA10036A0AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028D826507FA10036A0AB /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F4028C426507F6C0036A0AB /* CapstoneCellscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneCellscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F4028C726507F6C0036A0AB /* CapstoneCellscopeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneCellscopeApp.swift; sourceTree = "<group>"; };
-		8F4028C926507F6C0036A0AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F4028CB26507F6D0036A0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F4028CE26507F6D0036A0AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F4028D026507F6D0036A0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F4028D626507F910036A0AB /* CapstoneCellscopeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapstoneCellscopeApp.swift; sourceTree = "<group>"; };
+		8F4028D826507FA10036A0AB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 		8F4028C626507F6C0036A0AB /* CapstoneCellscope */ = {
 			isa = PBXGroup;
 			children = (
-				8F4028C726507F6C0036A0AB /* CapstoneCellscopeApp.swift */,
-				8F4028C926507F6C0036A0AB /* ContentView.swift */,
+				8F4028D826507FA10036A0AB /* ContentView.swift */,
+				8F4028D626507F910036A0AB /* CapstoneCellscopeApp.swift */,
 				8F4028CB26507F6D0036A0AB /* Assets.xcassets */,
 				8F4028D026507F6D0036A0AB /* Info.plist */,
 				8F4028CD26507F6D0036A0AB /* Preview Content */,
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F4028CA26507F6C0036A0AB /* ContentView.swift in Sources */,
-				8F4028C826507F6C0036A0AB /* CapstoneCellscopeApp.swift in Sources */,
+				8F4028D726507F910036A0AB /* CapstoneCellscopeApp.swift in Sources */,
+				8F4028D926507FA10036A0AB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
