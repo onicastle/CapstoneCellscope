@@ -458,16 +458,16 @@ import Combine
  Object to save an image to iPhone's photo library.
  From https://www.hackingwithswift.com/books/ios-swiftui/how-to-save-images-to-the-users-photo-library
  */
-class ImageSaver: NSObject {
-    func writeToPhotoAlbum(image: UIImage) {
-        UIImageWriteToSavedPhotosAlbum(image, self, #selector(saveError), nil)
-    }
-    @objc func saveError(_ image: UIImage,
-                         didFinishSavingWithError error: Error?,
-                         contextInfo: UnsafeRawPointer) {
-        print("Save finished!")
-    }
-}
+//class ImageSaver: NSObject {
+//    func writeToPhotoAlbum(image: UIImage) {
+//        UIImageWriteToSavedPhotosAlbum(image, self, #selector(saveError), nil)
+//    }
+//    @objc func saveError(_ image: UIImage,
+//                         didFinishSavingWithError error: Error?,
+//                         contextInfo: UnsafeRawPointer) {
+//        print("Save finished!")
+//    }
+//}
 
 /**
  This is the main view of the application.
@@ -849,7 +849,7 @@ struct AWSCameraView: View {
     
 }
 
-struct CameraView_Previews: PreviewProvider {
+struct AWSCameraView_Previews: PreviewProvider {
     static var previews: some View {
         AWSCameraView()
     }

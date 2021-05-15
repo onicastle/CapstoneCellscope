@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0960C500ABEC467F6AEF76BA /* Pods_CapstoneCellscope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CD8C3A1C35F97BE5E37046 /* Pods_CapstoneCellscope.framework */; };
 		8F4028CC26507F6D0036A0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028CB26507F6D0036A0AB /* Assets.xcassets */; };
 		8F4028CF26507F6D0036A0AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028CE26507F6D0036A0AB /* Preview Assets.xcassets */; };
 		8F4028D726507F910036A0AB /* CapstoneCellscopeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028D626507F910036A0AB /* CapstoneCellscopeApp.swift */; };
@@ -17,11 +18,6 @@
 		8F4029172650848C0036A0AB /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028E12650848C0036A0AB /* awsconfiguration.json */; };
 		8F4029182650848C0036A0AB /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028E32650848C0036A0AB /* CameraModel.swift */; };
 		8F4029192650848C0036A0AB /* CCameraViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028E42650848C0036A0AB /* CCameraViews.swift */; };
-		8F40291A2650848C0036A0AB /* CapstoneCellscope.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028E72650848C0036A0AB /* CapstoneCellscope.ipa */; };
-		8F40291B2650848C0036A0AB /* Packaging.log in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028E82650848C0036A0AB /* Packaging.log */; };
-		8F40291C2650848C0036A0AB /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028E92650848C0036A0AB /* ExportOptions.plist */; };
-		8F40291D2650848C0036A0AB /* DistributionSummary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4028EA2650848C0036A0AB /* DistributionSummary.plist */; };
-		8F40291E2650848C0036A0AB /* ImagePickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028EB2650848C0036A0AB /* ImagePickerUI.swift */; };
 		8F40291F2650848C0036A0AB /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028EC2650848C0036A0AB /* CameraService.swift */; };
 		8F4029202650848C0036A0AB /* ActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028EF2650848C0036A0AB /* ActionButtonStyle.swift */; };
 		8F4029212650848C0036A0AB /* CaptureButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028F02650848C0036A0AB /* CaptureButtonStyle.swift */; };
@@ -36,11 +32,7 @@
 		8F40292A2650848C0036A0AB /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028FE2650848C0036A0AB /* BadgeSymbol.swift */; };
 		8F40292B2650848C0036A0AB /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4028FF2650848C0036A0AB /* BadgeBackground.swift */; };
 		8F40292C2650848C0036A0AB /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029002650848C0036A0AB /* Badge.swift */; };
-		8F40292D2650848C0036A0AB /* BrightfieldCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029032650848C0036A0AB /* BrightfieldCameraView.swift */; };
-		8F40292E2650848C0036A0AB /* DarkfieldCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029042650848C0036A0AB /* DarkfieldCameraView.swift */; };
 		8F40292F2650848C0036A0AB /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029062650848C0036A0AB /* LabelStyle.swift */; };
-		8F4029302650848C0036A0AB /* CameraTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029072650848C0036A0AB /* CameraTabView.swift */; };
-		8F4029312650848C0036A0AB /* SwiftUIImagePickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029092650848C0036A0AB /* SwiftUIImagePickerApp.swift */; };
 		8F4029322650848C0036A0AB /* BluetoothSerialDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F40290B2650848C0036A0AB /* BluetoothSerialDelegate.swift */; };
 		8F4029332650848C0036A0AB /* HM10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F40290C2650848C0036A0AB /* HM10.swift */; };
 		8F4029342650848C0036A0AB /* AWSImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F40290E2650848C0036A0AB /* AWSImagePicker.swift */; };
@@ -50,9 +42,16 @@
 		8F4029382650848C0036A0AB /* AWSCameraViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029122650848C0036A0AB /* AWSCameraViews.swift */; };
 		8F4029392650848C0036A0AB /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029132650848C0036A0AB /* GalleryView.swift */; };
 		8F40293A2650848C0036A0AB /* revisedAWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4029142650848C0036A0AB /* revisedAWS.swift */; };
+		8F9B8669265088A200740301 /* SwiftImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8F9B8668265088A200740301 /* SwiftImage */; };
+		8F9B866C2650890300740301 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 8F9B866B2650890300740301 /* SwiftUIX */; };
+		8F9B867426508A2300740301 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B866F26508A2300740301 /* OpenCVWrapper.mm */; };
+		8F9B867526508A2300740301 /* CapstoneCellscope.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 8F9B867226508A2300740301 /* CapstoneCellscope.xcworkspace */; };
+		8F9B867626508A2300740301 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9B867326508A2300740301 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03A1B8DCE2DDFCCEB1DE3999 /* Pods-CapstoneCellscope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapstoneCellscope.debug.xcconfig"; path = "Target Support Files/Pods-CapstoneCellscope/Pods-CapstoneCellscope.debug.xcconfig"; sourceTree = "<group>"; };
+		43179C74287D704C0165C89F /* Pods-CapstoneCellscope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapstoneCellscope.release.xcconfig"; path = "Target Support Files/Pods-CapstoneCellscope/Pods-CapstoneCellscope.release.xcconfig"; sourceTree = "<group>"; };
 		8F4028C426507F6C0036A0AB /* CapstoneCellscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneCellscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F4028CB26507F6D0036A0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F4028CE26507F6D0036A0AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -65,11 +64,6 @@
 		8F4028E12650848C0036A0AB /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		8F4028E32650848C0036A0AB /* CameraModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
 		8F4028E42650848C0036A0AB /* CCameraViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCameraViews.swift; sourceTree = "<group>"; };
-		8F4028E72650848C0036A0AB /* CapstoneCellscope.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapstoneCellscope.ipa; sourceTree = "<group>"; };
-		8F4028E82650848C0036A0AB /* Packaging.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Packaging.log; sourceTree = "<group>"; };
-		8F4028E92650848C0036A0AB /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
-		8F4028EA2650848C0036A0AB /* DistributionSummary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DistributionSummary.plist; sourceTree = "<group>"; };
-		8F4028EB2650848C0036A0AB /* ImagePickerUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerUI.swift; sourceTree = "<group>"; };
 		8F4028EC2650848C0036A0AB /* CameraService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
 		8F4028EF2650848C0036A0AB /* ActionButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonStyle.swift; sourceTree = "<group>"; };
 		8F4028F02650848C0036A0AB /* CaptureButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureButtonStyle.swift; sourceTree = "<group>"; };
@@ -84,11 +78,7 @@
 		8F4028FE2650848C0036A0AB /* BadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		8F4028FF2650848C0036A0AB /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		8F4029002650848C0036A0AB /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
-		8F4029032650848C0036A0AB /* BrightfieldCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrightfieldCameraView.swift; sourceTree = "<group>"; };
-		8F4029042650848C0036A0AB /* DarkfieldCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkfieldCameraView.swift; sourceTree = "<group>"; };
 		8F4029062650848C0036A0AB /* LabelStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
-		8F4029072650848C0036A0AB /* CameraTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTabView.swift; sourceTree = "<group>"; };
-		8F4029092650848C0036A0AB /* SwiftUIImagePickerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIImagePickerApp.swift; sourceTree = "<group>"; };
 		8F40290B2650848C0036A0AB /* BluetoothSerialDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSerialDelegate.swift; sourceTree = "<group>"; };
 		8F40290C2650848C0036A0AB /* HM10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HM10.swift; sourceTree = "<group>"; };
 		8F40290E2650848C0036A0AB /* AWSImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSImagePicker.swift; sourceTree = "<group>"; };
@@ -98,6 +88,13 @@
 		8F4029122650848C0036A0AB /* AWSCameraViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSCameraViews.swift; sourceTree = "<group>"; };
 		8F4029132650848C0036A0AB /* GalleryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		8F4029142650848C0036A0AB /* revisedAWS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = revisedAWS.swift; sourceTree = "<group>"; };
+		8F9B866D26508A2200740301 /* CapstoneCellscope-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CapstoneCellscope-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F9B866E26508A2300740301 /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		8F9B866F26508A2300740301 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		8F9B867026508A2300740301 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8F9B867226508A2300740301 /* CapstoneCellscope.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = CapstoneCellscope.xcworkspace; path = ../CapstoneProject/CapstoneCellscope/CapstoneCellscope.xcworkspace; sourceTree = "<group>"; };
+		8F9B867326508A2300740301 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		96CD8C3A1C35F97BE5E37046 /* Pods_CapstoneCellscope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapstoneCellscope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,17 +102,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9B866C2650890300740301 /* SwiftUIX in Frameworks */,
+				8F9B8669265088A200740301 /* SwiftImage in Frameworks */,
+				0960C500ABEC467F6AEF76BA /* Pods_CapstoneCellscope.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		387C502E9B72B4F3DA893159 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03A1B8DCE2DDFCCEB1DE3999 /* Pods-CapstoneCellscope.debug.xcconfig */,
+				43179C74287D704C0165C89F /* Pods-CapstoneCellscope.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86DA174912404FB577DAE567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96CD8C3A1C35F97BE5E37046 /* Pods_CapstoneCellscope.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8F4028BB26507F6C0036A0AB = {
 			isa = PBXGroup;
 			children = (
+				8F9B867226508A2300740301 /* CapstoneCellscope.xcworkspace */,
+				8F9B867326508A2300740301 /* Launch Screen.storyboard */,
+				8F9B866E26508A2300740301 /* OpenCVWrapper.h */,
+				8F9B866F26508A2300740301 /* OpenCVWrapper.mm */,
+				8F9B867026508A2300740301 /* PrefixHeader.pch */,
 				8F4028C626507F6C0036A0AB /* CapstoneCellscope */,
 				8F4028C526507F6C0036A0AB /* Products */,
+				387C502E9B72B4F3DA893159 /* Pods */,
+				86DA174912404FB577DAE567 /* Frameworks */,
+				8F9B866D26508A2200740301 /* CapstoneCellscope-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,7 +189,6 @@
 				8F4028E22650848C0036A0AB /* Camera */,
 				8F4028F52650848C0036A0AB /* Resources */,
 				8F4028F92650848C0036A0AB /* Arduino */,
-				8F4029012650848C0036A0AB /* CameraTab */,
 				8F40290A2650848C0036A0AB /* Bluetooth */,
 				8F40290D2650848C0036A0AB /* AWS */,
 			);
@@ -184,6 +208,7 @@
 		8F4028E22650848C0036A0AB /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				8F4029062650848C0036A0AB /* LabelStyle.swift */,
 				8F4028E32650848C0036A0AB /* CameraModel.swift */,
 				8F4028E42650848C0036A0AB /* CCameraViews.swift */,
 				8F4028E52650848C0036A0AB /* Camera Components */,
@@ -195,22 +220,9 @@
 		8F4028E52650848C0036A0AB /* Camera Components */ = {
 			isa = PBXGroup;
 			children = (
-				8F4028E62650848C0036A0AB /* CapstoneCellscope 2021-05-14 23-19-52 */,
-				8F4028EB2650848C0036A0AB /* ImagePickerUI.swift */,
 				8F4028EC2650848C0036A0AB /* CameraService.swift */,
 			);
 			path = "Camera Components";
-			sourceTree = "<group>";
-		};
-		8F4028E62650848C0036A0AB /* CapstoneCellscope 2021-05-14 23-19-52 */ = {
-			isa = PBXGroup;
-			children = (
-				8F4028E72650848C0036A0AB /* CapstoneCellscope.ipa */,
-				8F4028E82650848C0036A0AB /* Packaging.log */,
-				8F4028E92650848C0036A0AB /* ExportOptions.plist */,
-				8F4028EA2650848C0036A0AB /* DistributionSummary.plist */,
-			);
-			path = "CapstoneCellscope 2021-05-14 23-19-52";
 			sourceTree = "<group>";
 		};
 		8F4028ED2650848C0036A0AB /* CamaraUI Components */ = {
@@ -279,42 +291,6 @@
 			path = ArduinoBadge;
 			sourceTree = "<group>";
 		};
-		8F4029012650848C0036A0AB /* CameraTab */ = {
-			isa = PBXGroup;
-			children = (
-				8F4029022650848C0036A0AB /* CustomCameras */,
-				8F4029052650848C0036A0AB /* Styles */,
-				8F4029072650848C0036A0AB /* CameraTabView.swift */,
-				8F4029082650848C0036A0AB /* SwiftUIImagePicker */,
-			);
-			path = CameraTab;
-			sourceTree = "<group>";
-		};
-		8F4029022650848C0036A0AB /* CustomCameras */ = {
-			isa = PBXGroup;
-			children = (
-				8F4029032650848C0036A0AB /* BrightfieldCameraView.swift */,
-				8F4029042650848C0036A0AB /* DarkfieldCameraView.swift */,
-			);
-			path = CustomCameras;
-			sourceTree = "<group>";
-		};
-		8F4029052650848C0036A0AB /* Styles */ = {
-			isa = PBXGroup;
-			children = (
-				8F4029062650848C0036A0AB /* LabelStyle.swift */,
-			);
-			path = Styles;
-			sourceTree = "<group>";
-		};
-		8F4029082650848C0036A0AB /* SwiftUIImagePicker */ = {
-			isa = PBXGroup;
-			children = (
-				8F4029092650848C0036A0AB /* SwiftUIImagePickerApp.swift */,
-			);
-			path = SwiftUIImagePicker;
-			sourceTree = "<group>";
-		};
 		8F40290A2650848C0036A0AB /* Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,15 +321,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F4028D326507F6D0036A0AB /* Build configuration list for PBXNativeTarget "CapstoneCellscope" */;
 			buildPhases = (
+				5F31078679CEBCD7B645486B /* [CP] Check Pods Manifest.lock */,
 				8F4028C026507F6C0036A0AB /* Sources */,
 				8F4028C126507F6C0036A0AB /* Frameworks */,
 				8F4028C226507F6C0036A0AB /* Resources */,
+				C4DD1279EF5BCDD2AE3BBE9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CapstoneCellscope;
+			packageProductDependencies = (
+				8F9B8668265088A200740301 /* SwiftImage */,
+				8F9B866B2650890300740301 /* SwiftUIX */,
+			);
 			productName = CapstoneCellscope;
 			productReference = 8F4028C426507F6C0036A0AB /* CapstoneCellscope.app */;
 			productType = "com.apple.product-type.application";
@@ -369,6 +351,7 @@
 				TargetAttributes = {
 					8F4028C326507F6C0036A0AB = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -381,6 +364,10 @@
 				Base,
 			);
 			mainGroup = 8F4028BB26507F6C0036A0AB;
+			packageReferences = (
+				8F9B8667265088A200740301 /* XCRemoteSwiftPackageReference "swift-image" */,
+				8F9B866A2650890300740301 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = 8F4028C526507F6C0036A0AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -395,19 +382,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F40291A2650848C0036A0AB /* CapstoneCellscope.ipa in Resources */,
 				8F4029172650848C0036A0AB /* awsconfiguration.json in Resources */,
-				8F40291B2650848C0036A0AB /* Packaging.log in Resources */,
-				8F40291C2650848C0036A0AB /* ExportOptions.plist in Resources */,
 				8F4029152650848C0036A0AB /* amplifytools.xcconfig in Resources */,
 				8F4028CF26507F6D0036A0AB /* Preview Assets.xcassets in Resources */,
-				8F40291D2650848C0036A0AB /* DistributionSummary.plist in Resources */,
 				8F4028CC26507F6D0036A0AB /* Assets.xcassets in Resources */,
+				8F9B867526508A2300740301 /* CapstoneCellscope.xcworkspace in Resources */,
 				8F4029162650848C0036A0AB /* amplifyconfiguration.json in Resources */,
+				8F9B867626508A2300740301 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F31078679CEBCD7B645486B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CapstoneCellscope-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4DD1279EF5BCDD2AE3BBE9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapstoneCellscope/Pods-CapstoneCellscope-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapstoneCellscope/Pods-CapstoneCellscope-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CapstoneCellscope/Pods-CapstoneCellscope-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F4028C026507F6C0036A0AB /* Sources */ = {
@@ -415,7 +442,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F4029232650848C0036A0AB /* CameraViewRepresentable.swift in Sources */,
-				8F4029312650848C0036A0AB /* SwiftUIImagePickerApp.swift in Sources */,
 				8F40292C2650848C0036A0AB /* Badge.swift in Sources */,
 				8F4029362650848C0036A0AB /* AWS.swift in Sources */,
 				8F4028D726507F910036A0AB /* CapstoneCellscopeApp.swift in Sources */,
@@ -427,17 +453,15 @@
 				8F4029272650848C0036A0AB /* ArduinoView.swift in Sources */,
 				8F4029332650848C0036A0AB /* HM10.swift in Sources */,
 				8F4029292650848C0036A0AB /* RotatedBadgeSymbol.swift in Sources */,
-				8F40292D2650848C0036A0AB /* BrightfieldCameraView.swift in Sources */,
-				8F4029302650848C0036A0AB /* CameraTabView.swift in Sources */,
 				8F4029182650848C0036A0AB /* CameraModel.swift in Sources */,
 				8F40292B2650848C0036A0AB /* BadgeBackground.swift in Sources */,
 				8F4029382650848C0036A0AB /* AWSCameraViews.swift in Sources */,
-				8F40291E2650848C0036A0AB /* ImagePickerUI.swift in Sources */,
 				8F4029392650848C0036A0AB /* GalleryView.swift in Sources */,
 				8F4029192650848C0036A0AB /* CCameraViews.swift in Sources */,
 				8F4029352650848C0036A0AB /* ImageProcessing.swift in Sources */,
 				8F4029242650848C0036A0AB /* PatternControl.swift in Sources */,
 				8F4029202650848C0036A0AB /* ActionButtonStyle.swift in Sources */,
+				8F9B867426508A2300740301 /* OpenCVWrapper.mm in Sources */,
 				8F40293A2650848C0036A0AB /* revisedAWS.swift in Sources */,
 				8F40292A2650848C0036A0AB /* BadgeSymbol.swift in Sources */,
 				8F4029262650848C0036A0AB /* Resources.swift in Sources */,
@@ -445,7 +469,6 @@
 				8F4028DC265084080036A0AB /* Root.swift in Sources */,
 				8F4029222650848C0036A0AB /* PatternButtonStyle.swift in Sources */,
 				8F40291F2650848C0036A0AB /* CameraService.swift in Sources */,
-				8F40292E2650848C0036A0AB /* DarkfieldCameraView.swift in Sources */,
 				8F4029282650848C0036A0AB /* HexagonalParameters.swift in Sources */,
 				8F4029342650848C0036A0AB /* AWSImagePicker.swift in Sources */,
 			);
@@ -495,6 +518,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -554,6 +578,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -572,9 +597,11 @@
 		};
 		8F4028D426507F6D0036A0AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03A1B8DCE2DDFCCEB1DE3999 /* Pods-CapstoneCellscope.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2.0.5;
 				DEVELOPMENT_ASSET_PATHS = "\"CapstoneCellscope/Preview Content\"";
@@ -589,6 +616,8 @@
 				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = capstone.CapstoneCellscope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CapstoneCellscope-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -596,9 +625,11 @@
 		};
 		8F4028D526507F6D0036A0AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43179C74287D704C0165C89F /* Pods-CapstoneCellscope.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2.0.5;
 				DEVELOPMENT_ASSET_PATHS = "\"CapstoneCellscope/Preview Content\"";
@@ -613,6 +644,7 @@
 				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = capstone.CapstoneCellscope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CapstoneCellscope-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -640,6 +672,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8F9B8667265088A200740301 /* XCRemoteSwiftPackageReference "swift-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/koher/swift-image.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8F9B866A2650890300740301 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8F9B8668265088A200740301 /* SwiftImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F9B8667265088A200740301 /* XCRemoteSwiftPackageReference "swift-image" */;
+			productName = SwiftImage;
+		};
+		8F9B866B2650890300740301 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F9B866A2650890300740301 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8F4028BC26507F6C0036A0AB /* Project object */;
 }
